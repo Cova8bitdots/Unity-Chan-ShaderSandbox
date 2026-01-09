@@ -24,8 +24,7 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 6e2eeb0de2a414f7ea12529696f6df0d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _HOLO_ENABLE
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -247,6 +246,9 @@ Material:
     - _Anisotropy: 0
     - _Ap_RimLight_FeatherOff: 0
     - _Ap_RimLight_Power: 0.1
+    - _Apply1stShade: 1
+    - _Apply2ndShade: 1
+    - _ApplySpecular: 1
     - _AutoRenderQueue: 1
     - _BaseColorOverridden: 0
     - _BaseColorVisible: 1
@@ -321,7 +323,7 @@ Material:
     - _HighColor_Power: 0
     - _HighlightOverridden: 0
     - _HighlightVisible: 1
-    - _HoloBorderWidth: 0.613
+    - _HoloBorderWidth: 0.696
     - _HoloDarkIntensity: 0.3
     - _HoloIntensity: 0.52
     - _HoloPhaseOffset: 0
@@ -388,6 +390,7 @@ Material:
     - _PPDPrimitiveWidth: 1
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _RampPower: 1
     - _RampStrength: 1
     - _ReceivesSSR: 1
     - _RefractionModel: 0
@@ -398,8 +401,8 @@ Material:
     - _RimLight_InsideMask: 0.0001
     - _RimLight_Power: 0.1
     - _RimPower: 4
-    - _RimSoftness: 0
-    - _RimWidth: 0.739
+    - _RimSoftness: 0.124
+    - _RimWidth: 0.199
     - _Rotate_EmissiveUV: 0
     - _Rotate_MatCapUV: 0
     - _Rotate_NormalMapForMatCapUV: 0
@@ -411,13 +414,19 @@ Material:
     - _SecondShadeOverridden: 0
     - _SecondShadeVisible: 1
     - _Set_SystemShadowsToBase: 1
+    - _Shade1stFeather: 0.02
+    - _Shade1stThreshold: 0.242
+    - _Shade2ndFeather: 0.03
+    - _Shade2ndThreshold: 0.008
     - _ShadeColor_Step: 0.129
-    - _ShadeFeather: 0.4
-    - _ShadeThreshold: 0.5
+    - _ShadeFeather: 0.05
+    - _ShadeThreshold: 0.482
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
-    - _SpecPower: 0
+    - _SpecFeather: 0.022
+    - _SpecPower: 69.81
+    - _SpecThreshold: 1
     - _SpecularAAScreenSpaceVariance: 0.1
     - _SpecularAAThreshold: 0.2
     - _SpecularOcclusionMode: 1
@@ -507,19 +516,21 @@ Material:
     - _FirstShadeMaskColor: {r: 0, g: 1, b: 1, a: 1}
     - _HighColor: {r: 0, g: 0, b: 0, a: 1}
     - _HighlightMaskColor: {r: 1, g: 1, b: 0, a: 1}
-    - _HoloColor: {r: 0.066666685, g: 0.9529412, b: 0.9529412, a: 1}
-    - _HoloDarkColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
+    - _HoloColor: {r: 0.066666685, g: 0.8372411, b: 0.9529412, a: 1}
+    - _HoloDarkColor: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _MatCapColor: {r: 1, g: 1, b: 1, a: 1}
     - _OutlineMaskColor: {r: 0, g: 0, b: 0, a: 1}
     - _Outline_Color: {r: 0.6792453, g: 0.3093801, b: 0.14417945, a: 1}
-    - _RimColor: {r: 0.015686274, g: 0.46546736, b: 0.50980395, a: 1}
+    - _RimColor: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}
     - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimLightMaskColor: {r: 1, g: 0, b: 1, a: 1}
     - _SecondShadeMaskColor: {r: 0, g: 0, b: 1, a: 1}
-    - _ShadowColor: {r: 0.8, g: 0.8, b: 1, a: 1}
-    - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Shadow1stColor: {r: 1, g: 0.85882354, b: 0.78039217, a: 1}
+    - _Shadow2ndColor: {r: 0.9254902, g: 0.6509804, b: 0.56078434, a: 1}
+    - _ShadowColor: {r: 0.6004361, g: 0.6004361, b: 0.9716981, a: 1}
+    - _SpecColor: {r: 0.9099662, g: 0.9716981, b: 0.36209506, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
