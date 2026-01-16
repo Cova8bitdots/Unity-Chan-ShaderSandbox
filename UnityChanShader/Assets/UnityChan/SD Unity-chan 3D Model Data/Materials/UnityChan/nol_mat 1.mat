@@ -24,7 +24,8 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 6e2eeb0de2a414f7ea12529696f6df0d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _HOLO_ENABLE
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -260,7 +261,7 @@ Material:
     - _Ap_RimLight_Power: 0.1
     - _Apply1stShade: 1
     - _Apply2ndShade: 1
-    - _ApplySpecular: 1
+    - _ApplySpecular: 0
     - _AutoRenderQueue: 1
     - _BaseColorOverridden: 0
     - _BaseColorVisible: 1
@@ -335,7 +336,7 @@ Material:
     - _HighColor_Power: 0
     - _HighlightOverridden: 0
     - _HighlightVisible: 1
-    - _HoloBorderWidth: 0.696
+    - _HoloBorderWidth: 0.8
     - _HoloDarkIntensity: 0.3
     - _HoloIntensity: 0.52
     - _HoloPhaseOffset: 0
@@ -412,7 +413,7 @@ Material:
     - _RimLight_FeatherOff: 0
     - _RimLight_InsideMask: 0.0001
     - _RimLight_Power: 0.1
-    - _RimPower: 4
+    - _RimPower: 4.46
     - _RimSoftness: 0.124
     - _RimWidth: 0.199
     - _Rotate_EmissiveUV: 0
@@ -529,7 +530,7 @@ Material:
     - _FirstShadeMaskColor: {r: 0, g: 1, b: 1, a: 1}
     - _HighColor: {r: 0, g: 0, b: 0, a: 1}
     - _HighlightMaskColor: {r: 1, g: 1, b: 0, a: 1}
-    - _HoloColor: {r: 0.066666685, g: 0.8372411, b: 0.9529412, a: 1}
+    - _HoloColor: {r: 0.066666685, g: 0.894666, b: 0.9529412, a: 1}
     - _HoloDarkColor: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}

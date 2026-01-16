@@ -1118,10 +1118,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1716.0,
-            "y": 147.99998474121095,
-            "width": 208.0,
-            "height": 278.0
+            "x": -1664.0001220703125,
+            "y": 255.00003051757813,
+            "width": 132.0001220703125,
+            "height": 93.99993896484375
         }
     },
     "m_Slots": [
@@ -1134,7 +1134,7 @@
     ],
     "synonyms": [],
     "m_Precision": 0,
-    "m_PreviewExpanded": true,
+    "m_PreviewExpanded": false,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -1309,10 +1309,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1905.0001220703125,
-            "y": 283.0,
-            "width": 132.0001220703125,
-            "height": 33.999969482421878
+            "x": -1796.0,
+            "y": 297.99993896484377,
+            "width": 131.9998779296875,
+            "height": 34.000091552734378
         }
     },
     "m_Slots": [
@@ -1848,10 +1848,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1923.0001220703125,
-            "y": 348.9999694824219,
-            "width": 135.0001220703125,
-            "height": 34.00006103515625
+            "x": -1799.0,
+            "y": 387.9999694824219,
+            "width": 134.9998779296875,
+            "height": 33.999969482421878
         }
     },
     "m_Slots": [
@@ -2103,10 +2103,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1716.0001220703125,
-            "y": 464.0000305175781,
-            "width": 208.0001220703125,
-            "height": 278.0000305175781
+            "x": -1664.0001220703125,
+            "y": 348.9999694824219,
+            "width": 132.0001220703125,
+            "height": 94.00003051757813
         }
     },
     "m_Slots": [
@@ -2119,7 +2119,7 @@
     ],
     "synonyms": [],
     "m_Precision": 0,
-    "m_PreviewExpanded": true,
+    "m_PreviewExpanded": false,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -2245,14 +2245,14 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "ff3a95a8da084ea3b7d7b31e48a1b404",
-    "m_Title": "New Note",
+    "m_Title": "t",
     "m_Content": "rimRaw = 1 - saturate( dot( N, V ))\n\n",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -1683.0,
-        "y": -264.0,
+        "x": -1189.0,
+        "y": 528.0,
         "width": 200.0,
         "height": 160.0
     },
